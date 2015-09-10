@@ -1,0 +1,11 @@
+---
+name: TestSuiteOne
+threadCount: 1
+# parameters: { n: 42 }
+ 
+tests:
+  - name: TestOne
+    parameters: { url: "http://192.168.50.105:5080/api" }
+    # excludedGroups: [ broken ]
+    classes:
+    - com.cleo.labs.resttest.NewTest

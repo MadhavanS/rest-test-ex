@@ -1,0 +1,484 @@
+---
+  resources: 
+    - 
+      _links: 
+        self: 
+          href: "/api/certs/01725787b085064eb432913b8870380021bb7dd6"
+      meta: 
+        resourceType: "cert"
+      issuer: "OU=VeriSign Trust Network,OU=(c) 1998 VeriSign, Inc. - For authorized use only,OU=Class 2 Public Primary Certification Authority - G2,O=VeriSign, Inc.,C=US"
+      serialNumber: "B92F60CC889FA17A4609B85B706C8AAF"
+      version: "X.509V1"
+      signatureAlgorithm: "SHA1/RSA"
+      status: "valid"
+      trusted: true
+      alias: "c2pcag22.cer"
+      id: "01725787b085064eb432913b8870380021bb7dd6"
+      notBefore: "1998-05-18T00:00:00Z"
+      notAfter: "2028-08-01T23:59:59Z"
+      subject: "OU=VeriSign Trust Network,OU=(c) 1998 VeriSign, Inc. - For authorized use only,OU=Class 2 Public Primary Certification Authority - G2,O=VeriSign, Inc.,C=US"
+      publicKeyAlgorithm: "RSA"
+      keyUsage: []
+      extendedKeyUsage: []
+      hasPrivateKey: false
+      certificate: "MIIDAzCCAmwCEQC5L2DMiJ+hekYJuFtwbIqvMA0GCSqGSIb3DQEBBQUAMIHBMQswCQYDVQQGEwJVUzEXMBUGA1UEChMOVmVyaVNpZ24sIEluYy4xPDA6BgNVBAsTM0NsYXNzIDIgUHVibGljIFByaW1hcnkgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkgLSBHMjE6MDgGA1UECxMxKGMpIDE5OTggVmVyaVNpZ24sIEluYy4gLSBGb3IgYXV0aG9yaXplZCB1c2Ugb25seTEfMB0GA1UECxMWVmVyaVNpZ24gVHJ1c3QgTmV0d29yazAeFw05ODA1MTgwMDAwMDBaFw0yODA4MDEyMzU5NTlaMIHBMQswCQYDVQQGEwJVUzEXMBUGA1UEChMOVmVyaVNpZ24sIEluYy4xPDA6BgNVBAsTM0NsYXNzIDIgUHVibGljIFByaW1hcnkgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkgLSBHMjE6MDgGA1UECxMxKGMpIDE5OTggVmVyaVNpZ24sIEluYy4gLSBGb3IgYXV0aG9yaXplZCB1c2Ugb25seTEfMB0GA1UECxMWVmVyaVNpZ24gVHJ1c3QgTmV0d29yazCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAp4gBIXQs5xoD8JjhlzwPIQjxnNuX6Zr8wgQGE75fUsjMHiwSViy4AWkszJkfrbCWrnkE8hM5wXuYuggs6MKEEyyqaekJ9MepAqRCwiNPStjwDqL7MWzJ5m+ZJwf15vRMeJ5t60aG+rmGyVTyssSv1EYcWskVMP8NbPUtDm3Of3cCAwEAATANBgkqhkiG9w0BAQUFAAOBgQByLvl/0fFx+8Se9sVeUYpAmLho+Jscg9jinb3/7aHmZuovCfTK1+qlK5X2JGCGTUQug6XELaDTrnhpb3LabK4I8GOSN+a7xDAXrXfMSTWqz9iP0b63GJZHc2pUIjRkLbYWm1lbtFFZOrMLFPQS32eg9K0yZF6xRnInjBJ7xUS0rg=="
+    - 
+      _links: 
+        self: 
+          href: "/api/certs/03ff71e594e0749d655bef75ef776f4c8d93cdda"
+      meta: 
+        resourceType: "cert"
+      certificate: "MIIDJTCCAo6gAwIBAgIIK4yrOv0gb+gwDQYJKoZIhvcNAQEFBQAwgZsxCzAJBgNVBAYTAlVTMREwDwYDVQQIEwhJbGxpbm9pczESMBAGA1UEBxMJRGVlcmZpZWxkMRkwFwYDVQQKExBLbGVpbnNjaG1pZHQgSW5jMSQwIgYDVQQLExtLbGVpbnNjaG1pZHQgSW5jIEVDIEdhdGV3YXkxJDAiBgNVBAMTG0tsZWluc2NobWlkdCBJbmMgUHJpbWFyeSBDQTAeFw0wMjExMDUyMzE0MTlaFw0yMjEwMzEyMzE0MTlaMIGbMQswCQYDVQQGEwJVUzERMA8GA1UECBMISWxsaW5vaXMxEjAQBgNVBAcTCURlZXJmaWVsZDEZMBcGA1UEChMQS2xlaW5zY2htaWR0IEluYzEkMCIGA1UECxMbS2xlaW5zY2htaWR0IEluYyBFQyBHYXRld2F5MSQwIgYDVQQDExtLbGVpbnNjaG1pZHQgSW5jIFByaW1hcnkgQ0EwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMkSk7ajb/dcO9aKNqNnQlS8410icEES2BkdAtygpvihu8p6V/i0VIBeM6FKhsM32q7m2sdKzUdRFC3JfYcD24JyEj1RFJyKmOavDYUAykpiu0Ut/lB2f+0uHdCi76fkv6iMGWg/82TOb96jQUZ3fvzdSWDbRXChzSCLRVma8SODAgMBAAGjcDBuMBEGCisGAQQBl1UDAQUEAwMBADAdBgNVHQ4EFgQU1KnVIYBF+xnreFsn86KdLOCZiTowDgYDVR0PAQH/BAQDAgHmMA8GA1UdEwEB/wQFMAMBAf8wGQYDVR0gBBIwEDAOBgwrBgEEAZdVWFlaWlkwDQYJKoZIhvcNAQEFBQADgYEAL3H/jRkRkTkHNpB9RsjV/AIsAZhZqO+v/J70jbuX9g7rvacPoQTgrek+VY56UG6yv1yR0C3fb41kixVXO3CpsMIL6z2sL/6n9lrSp0AGz+QAWxcG+YJuJJ2xEHzV4SW+yosC+TTVU2fqUS6ympVHBNiQb+/or2ZdB4Va7/Ubu10="
+      issuer: "CN=Kleinschmidt Inc Primary CA,OU=Kleinschmidt Inc EC Gateway,O=Kleinschmidt Inc,L=Deerfield,ST=Illinois,C=US"
+      serialNumber: "2B8CAB3AFD206FE8"
+      version: "X.509V3"
+      signatureAlgorithm: "SHA1/RSA"
+      status: "valid"
+      trusted: true
+      alias: "kleinschmidt_inc_primary_ca.cer"
+      id: "03ff71e594e0749d655bef75ef776f4c8d93cdda"
+      notBefore: "2002-11-05T23:14:19Z"
+      notAfter: "2022-10-31T23:14:19Z"
+      subject: "CN=Kleinschmidt Inc Primary CA,OU=Kleinschmidt Inc EC Gateway,O=Kleinschmidt Inc,L=Deerfield,ST=Illinois,C=US"
+      publicKeyAlgorithm: "RSA"
+      keyUsage: 
+        - "digitalSignature"
+        - "nonRepudiation"
+        - "keyEncipherment"
+        - "keyCertSign"
+        - "cRLSign"
+      extendedKeyUsage: []
+      subjectKeyIdentifier: "D4A9D5218045FB19EB785B27F3A29D2CE099893A"
+      hasPrivateKey: false
+    - 
+      _links: 
+        self: 
+          href: "/api/certs/12bf6219f378b42c38f350d1755b2555dd9c27a0"
+      meta: 
+        resourceType: "cert"
+      issuer: "OU=VeriSign Trust Network,OU=(c) 1998 VeriSign, Inc. - For authorized use only,OU=Class 3 Public Primary Certification Authority - G2,O=VeriSign, Inc.,C=US"
+      serialNumber: "46A433BD761F6A49E6A8C3A7F58540F5"
+      version: "X.509V1"
+      signatureAlgorithm: "SHA1/RSA"
+      status: "valid"
+      trusted: true
+      alias: "ver2a8.cer"
+      id: "12bf6219f378b42c38f350d1755b2555dd9c27a0"
+      notBefore: "1998-05-18T00:00:00Z"
+      notAfter: "2018-05-18T23:59:59Z"
+      subject: "OU=VeriSign Trust Network,OU=(c) 1998 VeriSign, Inc. - For authorized use only,OU=Class 3 Public Primary Certification Authority - G2,O=VeriSign, Inc.,C=US"
+      publicKeyAlgorithm: "RSA"
+      keyUsage: []
+      extendedKeyUsage: []
+      hasPrivateKey: false
+      certificate: "MIIDAjCCAmsCEEakM712H2pJ5qjDp/WFQPUwDQYJKoZIhvcNAQEFBQAwgcExCzAJBgNVBAYTAlVTMRcwFQYDVQQKEw5WZXJpU2lnbiwgSW5jLjE8MDoGA1UECxMzQ2xhc3MgMyBQdWJsaWMgUHJpbWFyeSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eSAtIEcyMTowOAYDVQQLEzEoYykgMTk5OCBWZXJpU2lnbiwgSW5jLiAtIEZvciBhdXRob3JpemVkIHVzZSBvbmx5MR8wHQYDVQQLExZWZXJpU2lnbiBUcnVzdCBOZXR3b3JrMB4XDTk4MDUxODAwMDAwMFoXDTE4MDUxODIzNTk1OVowgcExCzAJBgNVBAYTAlVTMRcwFQYDVQQKEw5WZXJpU2lnbiwgSW5jLjE8MDoGA1UECxMzQ2xhc3MgMyBQdWJsaWMgUHJpbWFyeSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eSAtIEcyMTowOAYDVQQLEzEoYykgMTk5OCBWZXJpU2lnbiwgSW5jLiAtIEZvciBhdXRob3JpemVkIHVzZSBvbmx5MR8wHQYDVQQLExZWZXJpU2lnbiBUcnVzdCBOZXR3b3JrMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMXtERXVxp0KvTuWpMmR9ZmDCOFoUgRm1HP9SFIIThbbP4pO0M8RcPO/mn+SXXwc+EY/J8Y8+iR/LGWzOOZEAEaMGAuWQcRXfH2G71lSk8UOg013gfqLptQ5GVj0VXXn7F+8qkBOvqlzdUMG+7AUcyM83cV5tkaWH4mx0ciU9cZwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBABB79Ik/3D0LuwBM6zQoy/0HqUNphvJLAKTH1diwgngO7ZY8ZnsHB+E+c/Z+csjFQd0pSFxj6zb0dS7FBI2qu7a3FKWAZkY9AQzSwAC1SBtLHfQpR6g8QhdYLXh7IFACJ0ubJwvt8y9UJnNI8CWpifefyaqKYbfKDD3WhHcGFOgV"
+    - 
+      _links: 
+        self: 
+          href: "/api/certs/1795710b9c5fa291f48d19c5961c2d91bd9e8452"
+      meta: 
+        resourceType: "cert"
+      certificate: "MIIE0zCCA7ugAwIBAgIQGNrRniZ96LtKIVjNzGs7SjANBgkqhkiG9w0BAQUFADCByjELMAkGA1UEBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMR8wHQYDVQQLExZWZXJpU2lnbiBUcnVzdCBOZXR3b3JrMTowOAYDVQQLEzEoYykgMjAwNiBWZXJpU2lnbiwgSW5jLiAtIEZvciBhdXRob3JpemVkIHVzZSBvbmx5MUUwQwYDVQQDEzxWZXJpU2lnbiBDbGFzcyAzIFB1YmxpYyBQcmltYXJ5IENlcnRpZmljYXRpb24gQXV0aG9yaXR5IC0gRzUwHhcNMDYxMTA4MDAwMDAwWhcNMzYwNzE2MjM1OTU5WjCByjELMAkGA1UEBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMR8wHQYDVQQLExZWZXJpU2lnbiBUcnVzdCBOZXR3b3JrMTowOAYDVQQLEzEoYykgMjAwNiBWZXJpU2lnbiwgSW5jLiAtIEZvciBhdXRob3JpemVkIHVzZSBvbmx5MUUwQwYDVQQDEzxWZXJpU2lnbiBDbGFzcyAzIFB1YmxpYyBQcmltYXJ5IENlcnRpZmljYXRpb24gQXV0aG9yaXR5IC0gRzUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCvJAgIKXo1nmAMqudLO07cfLw8RRy7K+D+KQL5VwijZIUVJ/XxrcgxiV0i6CqqpkKzj/i5Vbext0uz/o9+B1fs70PbZmIVYc9gDaTY3vjgw2IIPVQT60nKWVSFJuUrjxuf6/WhkcIzSdhDY2pSS9KP6HBRTdGJaXvHcPaz3BJ023tdS1bTlr8Vd6Gw9KIl8q8ckmcY5fQGBO+QueQA5N06tRn/Arr0PO7gi+s3i+z016zy9vA9r911kTMZHRxAy3QkGSGT2RT+rCpSx4/VBEnkjWNHiDxpg8v+R70rfk/Fla4OndTRQ8Bnc+MUCH7lP59zuDMKz10/NIeWiu5T6CUVAgMBAAGjgbIwga8wDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAQYwbQYIKwYBBQUHAQwEYTBfoV2gWzBZMFcwVRYJaW1hZ2UvZ2lmMCEwHzAHBgUrDgMCGgQUj+XTGoasjY5rw8+AatRIGCx7GS4wJRYjaHR0cDovL2xvZ28udmVyaXNpZ24uY29tL3ZzbG9nby5naWYwHQYDVR0OBBYEFH/TZafC3ey78DAJ80M5+gKvMzEzMA0GCSqGSIb3DQEBBQUAA4IBAQCTJEowX2LP2BqYLz3q3JktvXf2pXkiOOzEp6B4Eq1iDkVwZMXnl2YtmAl+X6/WzChl8gGqCBpH3vn5fJJaCGkgDdk+bW48DW7Y5gaRQBi5+MHt39tBquCWIMnNZBU4gcmU7qKEKQsTb47bDN0lAtukixlE0kF6BWlKWE9gyn6CagsCqiUXObXbf+eEZSqVir2G3l6BFoMtEMze/aiCKm0oHw0LxOXnGiYZ4fQRbxC1lfznQgUy286dUV4otp6F01vvpX1FQHKOtw5rDgb7MzVIcbidJ4vEZV8NhnacRHr2lVz2XTIIM6RUthg/aFzyQkqFOFSDX9HoLPKsEdao7WNq"
+      issuer: "CN=VeriSign Class 3 Public Primary Certification Authority - G5,OU=(c) 2006 VeriSign, Inc. - For authorized use only,OU=VeriSign Trust Network,O=VeriSign, Inc.,C=US"
+      serialNumber: "18DAD19E267DE8BB4A2158CDCC6B3B4A"
+      version: "X.509V3"
+      signatureAlgorithm: "SHA1/RSA"
+      status: "valid"
+      trusted: true
+      alias: "verisign_class3_public_primary_certification_authority_g5.cer"
+      id: "1795710b9c5fa291f48d19c5961c2d91bd9e8452"
+      notBefore: "2006-11-08T00:00:00Z"
+      notAfter: "2036-07-16T23:59:59Z"
+      subject: "CN=VeriSign Class 3 Public Primary Certification Authority - G5,OU=(c) 2006 VeriSign, Inc. - For authorized use only,OU=VeriSign Trust Network,O=VeriSign, Inc.,C=US"
+      publicKeyAlgorithm: "RSA"
+      keyUsage: 
+        - "keyCertSign"
+        - "cRLSign"
+      extendedKeyUsage: []
+      subjectKeyIdentifier: "7FD365A7C2DDECBBF03009F34339FA02AF333133"
+      hasPrivateKey: false
+    - 
+      _links: 
+        self: 
+          href: "/api/certs/2523a5c18536ed1002ee857e7116df50728a91e8"
+      meta: 
+        resourceType: "cert"
+      certificate: "MIIDbjCCAlagAwIBAgIQe+VpWm44R9SmSz5UFAZh5TANBgkqhkiG9w0BAQsFADBXMQswCQYDVQQGEwJVUzELMAkGA1UECAwCSUwxEzARBgNVBAcMCkxvdmVzIFBhcmsxDTALBgNVBAoMBENsZW8xFzAVBgNVBAMMDlZhZ3JhbnQgSXNzdWVyMB4XDTE1MDgxMDE4MzIwN1oXDTE2MDgwOTE4MzIwN1owJjELMAkGA1UEBhMCVVMxFzAVBgNVBAMMDjE5Mi4xNjguNTAuMTA1MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2oyYAPp4gL6Q2DY+U4yZtFB+duyYkYOeWYgm4naCsVeYvXaiTS+x+0cQnHHKZZk9eEBAok24kXX6Jd4vGB8Cx4GeVHTSz837ZkJSSwlxppkqBCgPID2X+oJPWJ7CfUOdOy7TJwPSIb/kz1jGIsTa0aRtKxOY3+rpHntpMjZK+4pIV/TXoeeXBPI7htLv6T8VtUwqBTJ4u/QyXt5KlC4ffiMbGDWw+8Q/lEEmGCXTBeDkyZjIa/0QYAh75JAItmoNnbHrXlQ5oAte3G0KrLhQ/sgZbRE4N69nGYpdJ+nwhPhyS42AgxM2IOgdG5u5N7YA3+ldrHbyW1+/dq2pSsEn1wIDAQABo2cwZTALBgNVHQ8EBAMCBaAwFgYDVR0lAQH/BAwwCgYIKwYBBQUHAwEwHQYDVR0OBBYEFLh1Lixeovepes+60liUWyCkxxC0MB8GA1UdIwQYMBaAFNscTWdLOU3D0aNN8k/WO6xDY3gVMA0GCSqGSIb3DQEBCwUAA4IBAQBp+BlRikXbrivNshdpOfHHIgY5xc7l5vzRRbAVaUL+KkhJfVo7yRehjKOYulgxT7eU5rnmTILhm1SPJ3ebkPWf/7UYnxJ0b9X1b8WEhVrS3lKtV8U3EEAnoyvTjH/EMLJ/j8jW2rXdgnmgcOOXsOOlDeE0B47CdXL9JoZ/358GznL9hRzhBiIEE1Jq6Qq/bdtbSM8NL9cxQucwoLN7gZuaMdBDS8hXNOK/gt2B8cossjnP6kLGsfQWz+efVTE/her7M+2OWvvWIgM2UXUGuooiHSLpm00n5wUswNo2ZP/5lkC7DjO5OJFtz5kwIMesJFL12ukc6XSAblo6fnqNGagx"
+      issuer: "CN=Vagrant Issuer,O=Cleo,L=Loves Park,ST=IL,C=US"
+      serialNumber: "7BE5695A6E3847D4A64B3E54140661E5"
+      version: "X.509V3"
+      signatureAlgorithm: "SHA256/RSA"
+      status: "valid"
+      trusted: false
+      alias: "SERVER"
+      id: "2523a5c18536ed1002ee857e7116df50728a91e8"
+      notBefore: "2015-08-10T18:32:07Z"
+      notAfter: "2016-08-09T18:32:07Z"
+      subject: "CN=192.168.50.105,C=US"
+      publicKeyAlgorithm: "RSA"
+      keyUsage: 
+        - "digitalSignature"
+        - "keyEncipherment"
+      extendedKeyUsage: 
+        - "serverAuth"
+      subjectKeyIdentifier: "B8752E2C5EA2F7A97ACFBAD258945B20A4C710B4"
+      hasPrivateKey: true
+    - 
+      _links: 
+        self: 
+          href: "/api/certs/28978109c0cc0f5cde7f9028c6638d9d295d2d6c"
+      meta: 
+        resourceType: "cert"
+      issuer: "OU=Class 1 Public Primary Certification Authority,O=VeriSign, Inc.,C=US"
+      serialNumber: "325033CF50D156F35C81AD655C4FC825"
+      version: "X.509V1"
+      signatureAlgorithm: "MD2/RSA"
+      status: "valid"
+      trusted: true
+      alias: "ver2ba.cer"
+      id: "28978109c0cc0f5cde7f9028c6638d9d295d2d6c"
+      notBefore: "1996-01-29T00:00:00Z"
+      notAfter: "2020-01-07T23:59:59Z"
+      subject: "OU=Class 1 Public Primary Certification Authority,O=VeriSign, Inc.,C=US"
+      publicKeyAlgorithm: "RSA"
+      keyUsage: []
+      extendedKeyUsage: []
+      hasPrivateKey: false
+      certificate: "MIICPDCCAaUCEDJQM89Q0VbzXIGtZVxPyCUwDQYJKoZIhvcNAQECBQAwXzELMAkGA1UEBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMTcwNQYDVQQLEy5DbGFzcyAxIFB1YmxpYyBQcmltYXJ5IENlcnRpZmljYXRpb24gQXV0aG9yaXR5MB4XDTk2MDEyOTAwMDAwMFoXDTIwMDEwNzIzNTk1OVowXzELMAkGA1UEBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMTcwNQYDVQQLEy5DbGFzcyAxIFB1YmxpYyBQcmltYXJ5IENlcnRpZmljYXRpb24gQXV0aG9yaXR5MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlGb9to1ZhLZlIcfZn3rmN67eehoAKkQ76OCWvRoiC5XOooJskXQ0fzGVuDLDQVoQYh5oGmxChc9+0WDlrbsH2FdWoqD+qEgaNMax/sDTXjzRniAnNFBHiTkVWaR94AoDa3EeRKbs2yWNcxeDXLYd7obcysHswuiovMaruo2fa2wIDAQABMA0GCSqGSIb3DQEBAgUAA4GBAEtEZmBoZOSYG/OwcuaViXzde7OVwB0u2NgZ0C00PcZQmhCGjKo/O6gE/DdSlcPZydvN8oYGxLEb8IKIMEKOF1AcZHq4PplJdJf8rAJD+5YMVgQlDHx8h50kp9jwMim1pN9dokzFFjKoQvZFprY2ueC/ZTaTwtLXa9zeWdaiNfhF"
+    - 
+      _links: 
+        self: 
+          href: "/api/certs/2a068dcce93a72cb21b1f84f76277141577569b5"
+      meta: 
+        resourceType: "cert"
+      certificate: "MIIDVzCCAj+gAwIBAgIQW76tTiqqTjSAMnaNCNO4xTANBgkqhkiG9w0BAQsFADBXMQswCQYDVQQGEwJVUzELMAkGA1UECAwCSUwxEzARBgNVBAcMCkxvdmVzIFBhcmsxDTALBgNVBAoMBENsZW8xFzAVBgNVBAMMDlZhZ3JhbnQgSXNzdWVyMB4XDTE1MDgxMTEyNTI0NloXDTE2MDgxMDEyNTI0NlowDzENMAsGA1UEAwwEdGVzdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOAVmCcpu3VP/w9+GnUV+ghplbPSV+PWMndMyKRpzeQCSn/XZauKHLXtK02joiYxxcTgUtUWq+V4xbCzQMJXyQwaZPASmyPjeCI6FDradWx+Q17CZs0JLlr44J9ddjO4SB7QP1YaXqTIIO2Ydsfltpb+lNGgbIFIjjAhnYavXJuI2RZQ4LP9OIjoqn9FZvXUNhUpoUZk6XFjGg2anXlXcssgj2YCXOKWD83EtNeMLmKfB/EuohOQqxl/t8b1cujgKXZ25Mj1uCG8fYrM/kfF/bkIW3BfbeotglUS5BAc+dEkS5jPQBD9lnOJWac9Z70CpiLVg7+Uv3jzlAkfaNz+tBUCAwEAAaNnMGUwCwYDVR0PBAQDAgWgMBYGA1UdJQEB/wQMMAoGCCsGAQUFBwMBMB0GA1UdDgQWBBRUtX4my/z/WRFHViBf6KkEnWes5zAfBgNVHSMEGDAWgBTbHE1nSzlNw9GjTfJP1jusQ2N4FTANBgkqhkiG9w0BAQsFAAOCAQEAIrBdFIWTMCG9ROv0ug9q/Tmp7Lm2g2Drcio2C6k93lo5Bd9f/I+SjogY8CpoYLQfAwnd4FBQHvT5sqEqYwHv4VfDQKpR0VuYlOJ1akeSQFNMkLtB5y1DvVFNzm/Isp9rLA/JyPLxkmiA+QBgn/+kHW7EEFQ7fMdySGSSMbtFZxOUBBVf9UOGcjLx20UIux+/jEdupBKCcXG6SuCmM/U19IukwYt5kq+JgaFEho8pOyyWAz7dBhd1MvA4i5XUkHvM2qaj/PSIra6UPf9OpbyVzH1taGCzlh3p7Ijz4RljbEBZvSCgBAKq4ZcBFuXnhXaJDbNmrxWBUZcqrxaHgG5aMg=="
+      issuer: "CN=Vagrant Issuer,O=Cleo,L=Loves Park,ST=IL,C=US"
+      serialNumber: "5BBEAD4E2AAA4E348032768D08D3B8C5"
+      version: "X.509V3"
+      signatureAlgorithm: "SHA256/RSA"
+      status: "valid"
+      trusted: true
+      alias: "1219497990694113266501538236041288562612.p7b"
+      id: "2a068dcce93a72cb21b1f84f76277141577569b5"
+      notBefore: "2015-08-11T12:52:46Z"
+      notAfter: "2016-08-10T12:52:46Z"
+      subject: "CN=test"
+      publicKeyAlgorithm: "RSA"
+      keyUsage: 
+        - "digitalSignature"
+        - "keyEncipherment"
+      extendedKeyUsage: 
+        - "serverAuth"
+      subjectKeyIdentifier: "54B57E26CBFCFF59114756205FE8A9049D67ACE7"
+      hasPrivateKey: false
+    - 
+      _links: 
+        self: 
+          href: "/api/certs/3536a9bef7bbcaa11aba48a1280f1b3f0b639f26"
+      meta: 
+        resourceType: "cert"
+      issuer: "OU=Class 1 Public Primary Certification Authority,O=VeriSign, Inc.,C=US"
+      serialNumber: "CDBA7F56F0DFE4BC54FE22ACB372AA55"
+      version: "X.509V1"
+      signatureAlgorithm: "MD2/RSA"
+      status: "valid"
+      trusted: true
+      alias: "pca1ssv4.cer"
+      id: "3536a9bef7bbcaa11aba48a1280f1b3f0b639f26"
+      notBefore: "1996-01-29T00:00:00Z"
+      notAfter: "2028-08-01T23:59:59Z"
+      subject: "OU=Class 1 Public Primary Certification Authority,O=VeriSign, Inc.,C=US"
+      publicKeyAlgorithm: "RSA"
+      keyUsage: []
+      extendedKeyUsage: []
+      hasPrivateKey: false
+      certificate: "MIICPTCCAaYCEQDNun9W8N/kvFT+IqyzcqpVMA0GCSqGSIb3DQEBAgUAMF8xCzAJBgNVBAYTAlVTMRcwFQYDVQQKEw5WZXJpU2lnbiwgSW5jLjE3MDUGA1UECxMuQ2xhc3MgMSBQdWJsaWMgUHJpbWFyeSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTAeFw05NjAxMjkwMDAwMDBaFw0yODA4MDEyMzU5NTlaMF8xCzAJBgNVBAYTAlVTMRcwFQYDVQQKEw5WZXJpU2lnbiwgSW5jLjE3MDUGA1UECxMuQ2xhc3MgMSBQdWJsaWMgUHJpbWFyeSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA5Rm/baNWYS2ZSHH2Z965jeu3noaACpEO+jglr0aIguVzqKCbJF0NH8xlbgyw0FaEGIeaBpsQoXPftFg5a27B9hXVqKg/qhIGjTGsf7A01480Z4gJzRQR4k5FVmkfeAKA2txHkSm7NsljXMXg1y2He6G3MrB7MLoqLzGq7qNn2tsCAwEAATANBgkqhkiG9w0BAQIFAAOBgQBMP7iLxmjf7kMzDl3ppssHhE16M/+SG/Q2rdiVIjZoEWx8QszznC7EBz8UsA9P/5CSdvnivErpj82ggAr3xSnxgiJduLHdgSOjeyUVRjB5FvjqBUuUfx3CHMjjt/QQQDwTw18fU+hI5Ia0e6E1sHslurjTjqs/OJ0ANACY89FxlA=="
+    - 
+      _links: 
+        self: 
+          href: "/api/certs/460d1a5f4a15b3c779bb4fc789c31be2c1f5fc2a"
+      meta: 
+        resourceType: "cert"
+      certificate: "MIIDWDCCAkCgAwIBAgIRAMvT0anX70S5tt4V5TmeXU4wDQYJKoZIhvcNAQELBQAwVzELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAklMMRMwEQYDVQQHDApMb3ZlcyBQYXJrMQ0wCwYDVQQKDARDbGVvMRcwFQYDVQQDDA5WYWdyYW50IElzc3VlcjAeFw0xNTA4MTgxMjQxMTVaFw0xNjA4MTcxMjQxMTVaMA8xDTALBgNVBAMMBGFuZHkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDcsqL9Ve0DtjKJSmKHXQ04eZaP64kZXTgBVseP3SVrO9v/ViqW1YJwE1q/plnL5Sl94ISqLilOoXkOn+5xM8xjUGQAgxG3eGcQnQDANxHIgTuotsyww3lmHwKERNQXaN/exdKWcC3X4XTFwXdTy5Ri7ilzUyrzcw8q6VB/15XG6LN3I3yryJNeH6/RKw+rK83ldPB2ZseIDxFsyvgcw4OpD5qw9PiMho7SULoD2JTEFsdOLa3QyML1YHJYHoqGSiGPUff1PL7QciY+KdyRy7H2nUDMZoScQ0ddWiOuyZvblSsScggIM85BXsY9IqqdGqGqXeOGO8+oOSYKPzVWH4LtAgMBAAGjZzBlMAsGA1UdDwQEAwIFoDAWBgNVHSUBAf8EDDAKBggrBgEFBQcDATAdBgNVHQ4EFgQUB0lCl6Y7eAhQqFVEcWTN4Ij3obQwHwYDVR0jBBgwFoAU2xxNZ0s5TcPRo03yT9Y7rENjeBUwDQYJKoZIhvcNAQELBQADggEBAFZJMyBzY9ZdbV6B/4wR4zP4GCpMUkfTOu9NoGZeUA6ZsIGiK8ywDOstHEYye/Y6t5FLy1GwJFlC5uQ1Q6WXbRifrnVvIMnjtzG7+UxPi7X+X1nacobC42j1ZGfq/sZkxaQTLns7by5kkd+4+q5DNyN4bTu2kzA+xD6Z2YGUJVimljed31W9bleYbXyp5ZaiSr08Gr1oFLASSEzWgDoip5em8Zp3Zheki3cyEW+sLg8cRojIs7h/22rJNmmvDS4/fGd9niJrHW5PeDkD5MBolUt1co+C0e4wu8UtOYjQUKMTkXHSUbBsCu2Eun4d6FiH1eKttaNkXn5aRm99VN7LhMs="
+      issuer: "CN=Vagrant Issuer,O=Cleo,L=Loves Park,ST=IL,C=US"
+      serialNumber: "CBD3D1A9D7EF44B9B6DE15E5399E5D4E"
+      version: "X.509V3"
+      signatureAlgorithm: "SHA256/RSA"
+      status: "valid"
+      trusted: true
+      alias: "270933110261483933868106994801537080654.p7b"
+      id: "460d1a5f4a15b3c779bb4fc789c31be2c1f5fc2a"
+      notBefore: "2015-08-18T12:41:15Z"
+      notAfter: "2016-08-17T12:41:15Z"
+      subject: "CN=andy"
+      publicKeyAlgorithm: "RSA"
+      keyUsage: 
+        - "digitalSignature"
+        - "keyEncipherment"
+      extendedKeyUsage: 
+        - "serverAuth"
+      subjectKeyIdentifier: "07494297A63B780850A855447164CDE088F7A1B4"
+      hasPrivateKey: false
+    - 
+      _links: 
+        self: 
+          href: "/api/certs/4b794faa51430e077fca93a6779f43b5b96e0dca"
+      meta: 
+        resourceType: "cert"
+      certificate: "MIIDVDCCAjygAwIBAgIRANoSmNUsjUeYn4zsFFBw1QowDQYJKoZIhvcNAQELBQAwVzELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAklMMRMwEQYDVQQHDApMb3ZlcyBQYXJrMQ0wCwYDVQQKDARDbGVvMRcwFQYDVQQDDA5WYWdyYW50IElzc3VlcjAeFw0xNTA4MTAxODMyMDdaFw0xNjA4MDkxODMyMDdaMCAxCzAJBgNVBAYTAlVTMREwDwYDVQQDDAhBUzIgU2lnbjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANo6V4iVq/+xw1udYH4IqpIZ7xsckmUEyw0A0pNSgPYQhgZzOOLq2+Snnkwo7RRi6ywUylablF8qRsJZoeFDAXDFlvYxZU2BY3f4szRjSsq0Q0YmPXHzAELjVM0lQcogym+fWk9hkVlzsgkcF9CDsCG4cXEj2KElrhQbW5uYmaKYL/Dtph5OC0zReQEAzzZxeaHMrgV+z1gJX68vP1N31aIPRJM67SRXx1ZBYCqIdph/qThZbecrE0Tq/DL0WuaTubwKmZkUfxQe1pc20aW8ucyeusf7Rf2wU+hFt0I09qWKsILlkTtUkIgSqg0cNdBWnzx+HbJRXyc/SsjbgSze+ysCAwEAAaNSMFAwDgYDVR0PAQH/BAQDAgeAMB0GA1UdDgQWBBQWVMcDyDg0wYs6ai2r8FIS18Ql/TAfBgNVHSMEGDAWgBTbHE1nSzlNw9GjTfJP1jusQ2N4FTANBgkqhkiG9w0BAQsFAAOCAQEAydMiKINmnw8fxeVdDF/z5vLLYS+4tA1Qvj5BLXzpqDvYOpx31aUgFvBk7q6WogTXWG23Nx9lELjdqrxmP/btqa905pRwDcmqdZp8J++HvVsOUhpLhqSyXPdxQ7l3U7haltEJ7kJvTQ/RDQ5ob+u10w9h0E73efVO2BlhX3XjfSfGFjCWNwuPG+ajbJCFHP9vO64KRihfih8jzrZlQTw9ffumX79L/0pBoA+nnPifWLow5TVIfluWNXFa7Zt0GdIqte7jUbkafz04tVCkm+VMqC93LNugLK9kkbzpAFHemCceKwqAxAGwEvzCeLDIrgqhLVtRSYPbfy4STwwYmm6+Ow=="
+      issuer: "CN=Vagrant Issuer,O=Cleo,L=Loves Park,ST=IL,C=US"
+      serialNumber: "DA1298D52C8D47989F8CEC145070D50A"
+      version: "X.509V3"
+      signatureAlgorithm: "SHA256/RSA"
+      status: "valid"
+      trusted: false
+      alias: "SIGN"
+      id: "4b794faa51430e077fca93a6779f43b5b96e0dca"
+      notBefore: "2015-08-10T18:32:07Z"
+      notAfter: "2016-08-09T18:32:07Z"
+      subject: "CN=AS2 Sign,C=US"
+      publicKeyAlgorithm: "RSA"
+      keyUsage: 
+        - "digitalSignature"
+      extendedKeyUsage: []
+      subjectKeyIdentifier: "1654C703C83834C18B3A6A2DABF05212D7C425FD"
+      hasPrivateKey: true
+    - 
+      _links: 
+        self: 
+          href: "/api/certs/73017a3d7f3890f39a5421e6677107196ba0d23a"
+      meta: 
+        resourceType: "cert"
+      certificate: "MIID7TCCAtWgAwIBAgIDD6FBMA0GCSqGSIb3DQEBBQUAMIGQMQswCQYDVQQGEwJVUzERMA8GA1UECBMITWljaGlnYW4xDTALBgNVBAcTBFRyb3kxDDAKBgNVBAoTA0VEUzEZMBcGA1UECxMQRUxJVCBFbmdpbmVlcmluZzEkMCIGCSqGSIb3DQEJARYVRWxpdC5TZXJ2aWNlc0BlZHMuY29tMRAwDgYDVQQDEwdFRFNFTElUMB4XDTAzMDQwMTE2MzQzNVoXDTEzMDMyOTE2MzQzNVowgZAxCzAJBgNVBAYTAlVTMREwDwYDVQQIEwhNaWNoaWdhbjENMAsGA1UEBxMEVHJveTEMMAoGA1UEChMDRURTMRkwFwYDVQQLExBFTElUIEVuZ2luZWVyaW5nMSQwIgYJKoZIhvcNAQkBFhVFbGl0LlNlcnZpY2VzQGVkcy5jb20xEDAOBgNVBAMTB0VEU0VMSVQwggEgMA0GCSqGSIb3DQEBAQUAA4IBDQAwggEIAoIBAQCkrxmqnlMtD2kO1omo8BBANSk17RdPOOIit84cSmsXXlYKkvixcdv1AQteQN+Ek6QnrTKZmXFIBDuxnoVgqs8AMJ3bq4UM+4aH0H8zvlIIxTyT0xN5V/v7MA7x37EiY0V8C/Oc/DA9rxYCGuBJKYlmVEGb94nkJyZ7/a+sEF6luM2u80ZTx3H23FMY0RsgZVcWyp8b/sJrDyuBXo/mPdKYEo8CVW1++y5M/Sn4Y7DNFSPLvi7f38VEJVcYwcrWu5IkkAxoaBngGC7uiQhAG7PuT5cUA6rNfHXWUd1Uzw003yFbybTqK75XIarn1tq6alWsyxYTzRaAHryYwWgBfP1BAgERo1AwTjAdBgNVHQ4EFgQUAfqyO3apG9BCp6NReQoYBLGN2DgwHwYDVR0jBBgwFoAUAfqyO3apG9BCp6NReQoYBLGN2DgwDAYDVR0TBAUwAwEBADANBgkqhkiG9w0BAQUFAAOCAQEAAIMFBYGUnRLA0ymrx/pMyJzOHSWdCri2wAinTxhgjfCRGYyqMrG7JtJ/8fdP6nmPMKeiL3aEQm/koLKvmQfwZ56DgAACca9J3CK+Nf/Qn0CNr07dcSih+gi92VQkKUL9Plc1A3n40qBTr8n95+sOIXN86R/aCC2l+hRplvEPfA6+l7KhZSVkr3x8iRkzmbKFywqEmY9bsiek3caG8V9WTNH5JOligp69lRtAzMCqFCtDIZxQ2Z7uUQRN18f2ZE1gQft623XW5bcoCiwh9nS40sot3GtNAADSP8WqM7SfSi9425sODZwAH81cB241mdAEX25H+BePVjacvTNV06tvpA=="
+      issuer: "CN=EDSELIT,EMAIL=Elit.Services@eds.com,OU=ELIT Engineering,O=EDS,L=Troy,ST=Michigan,C=US"
+      serialNumber: "FA141"
+      version: "X.509V3"
+      signatureAlgorithm: "SHA1/RSA"
+      status: "expired"
+      trusted: true
+      alias: "edselit.cer"
+      id: "73017a3d7f3890f39a5421e6677107196ba0d23a"
+      notBefore: "2003-04-01T16:34:35Z"
+      notAfter: "2013-03-29T16:34:35Z"
+      subject: "CN=EDSELIT,EMAIL=Elit.Services@eds.com,OU=ELIT Engineering,O=EDS,L=Troy,ST=Michigan,C=US"
+      publicKeyAlgorithm: "RSA"
+      keyUsage: []
+      extendedKeyUsage: []
+      subjectKeyIdentifier: "01FAB23B76A91BD042A7A351790A1804B18DD838"
+      hasPrivateKey: false
+    - 
+      _links: 
+        self: 
+          href: "/api/certs/833d82ccef5d266f79aeeda195e4919ae134b287"
+      meta: 
+        resourceType: "cert"
+      issuer: "OU=Class 3 Public Primary Certification Authority,O=VeriSign, Inc.,C=US"
+      serialNumber: "70BAE41D10D92934B638CA7B03CCBABF"
+      version: "X.509V1"
+      signatureAlgorithm: "MD2/RSA"
+      status: "valid"
+      trusted: true
+      alias: "pca3ssv4.cer"
+      id: "833d82ccef5d266f79aeeda195e4919ae134b287"
+      notBefore: "1996-01-29T00:00:00Z"
+      notAfter: "2028-08-01T23:59:59Z"
+      subject: "OU=Class 3 Public Primary Certification Authority,O=VeriSign, Inc.,C=US"
+      publicKeyAlgorithm: "RSA"
+      keyUsage: []
+      extendedKeyUsage: []
+      hasPrivateKey: false
+      certificate: "MIICPDCCAaUCEHC65B0Q2Sk0tjjKewPMur8wDQYJKoZIhvcNAQECBQAwXzELMAkGA1UEBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMTcwNQYDVQQLEy5DbGFzcyAzIFB1YmxpYyBQcmltYXJ5IENlcnRpZmljYXRpb24gQXV0aG9yaXR5MB4XDTk2MDEyOTAwMDAwMFoXDTI4MDgwMTIzNTk1OVowXzELMAkGA1UEBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMTcwNQYDVQQLEy5DbGFzcyAzIFB1YmxpYyBQcmltYXJ5IENlcnRpZmljYXRpb24gQXV0aG9yaXR5MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDJXFme8huKARS0EN8EQNvjV69qRUCPhAwL0TPZ2RHP7gJYHyX3KqhEBarsAx94f56TuZoAqiN91qyFomNFx3InzPRMxnVx0jnvT0Lwdd8KkMaOIG+YD/isI19wKTakyYbnsZogy1Olhec9vn2a/iRFM9x2Fe0PonFkTGUugWhFpwIDAQABMA0GCSqGSIb3DQEBAgUAA4GBALtMEivPLCYATxQT3ab7/AoRhIzzKBxnki98tsX63/Dolbwdj2wsqFHMc9ikwFPwTtYmwHYBV4GSXiHx0bH/59AhWM1pF+NEHJwZRDmJXNycAA9WjQKZ7aKQRUzkuxCkPfAyAw7xzvjoyVGM5mKf5p/AfbdynMk2OmufTqj/ZA1k"
+    - 
+      _links: 
+        self: 
+          href: "/api/certs/88c7dc4a6d5c725af8d5589100abf01a94ba69e6"
+      meta: 
+        resourceType: "cert"
+      certificate: "MIIEnDCCBAWgAwIBAgIQdTN9mrDhIzuuLX3kRpFi1DANBgkqhkiG9w0BAQUFADBfMQswCQYDVQQGEwJVUzEXMBUGA1UEChMOVmVyaVNpZ24sIEluYy4xNzA1BgNVBAsTLkNsYXNzIDMgUHVibGljIFByaW1hcnkgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkwHhcNMDUwMTE5MDAwMDAwWhcNMTUwMTE4MjM1OTU5WjCBsDELMAkGA1UEBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMR8wHQYDVQQLExZWZXJpU2lnbiBUcnVzdCBOZXR3b3JrMTswOQYDVQQLEzJUZXJtcyBvZiB1c2UgYXQgaHR0cHM6Ly93d3cudmVyaXNpZ24uY29tL3JwYSAoYykwNTEqMCgGA1UEAxMhVmVyaVNpZ24gQ2xhc3MgMyBTZWN1cmUgU2VydmVyIENBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlcMhEo5AxQ0BX3ZeZpTZcyxYGSK4yfx6OZAqd3J8HT732FXjr0LLhzAC3FuscOa4RLQrNeuT0hcFfstG1lxToDJRnXRkWPkMmgDqXkRJZHL0zRDihQr5NO6ziGappaRa0A6Yf1gNK1K7hql+LvqySHyN2y1fAXWijQY7i7RhB8m+Ipn4G9G1V2YETTX0kXGWtZkIJZuXyDrzILHdnpgMSmO3ps6wAc74k2rzDG6fsemEe4GYQeaB3D0s57Rr4578CBbXs9W5ZhKZfG1xyE2+xw/j+zet1XWHIWuG0EQUWlR5OZZpVsm5Mc2JYVjh2XYFBa33uQKvp/1HkaIiNFox0QIDAQABo4IBgTCCAX0wEgYDVR0TAQH/BAgwBgEB/wIBADBEBgNVHSAEPTA7MDkGC2CGSAGG+EUBBxcDMCowKAYIKwYBBQUHAgEWHGh0dHBzOi8vd3d3LnZlcmlzaWduLmNvbS9ycGEwMQYDVR0fBCowKDAmoCSgIoYgaHR0cDovL2NybC52ZXJpc2lnbi5jb20vcGNhMy5jcmwwDgYDVR0PAQH/BAQDAgEGMBEGCWCGSAGG+EIBAQQEAwIBBjApBgNVHREEIjAgpB4wHDEaMBgGA1UEAxMRQ2xhc3MzQ0EyMDQ4LTEtNDUwHQYDVR0OBBYEFG/sr6DdiqTv9SoQZy0/VYK81+8lMIGABgNVHSMEeTB3oWOkYTBfMQswCQYDVQQGEwJVUzEXMBUGA1UEChMOVmVyaVNpZ24sIEluYy4xNzA1BgNVBAsTLkNsYXNzIDMgUHVibGljIFByaW1hcnkgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHmCEHC65B0Q2Sk0tjjKewPMur8wDQYJKoZIhvcNAQEFBQADgYEAw34IRl2RNs9n3Nenr6+4IsOLBHTTsWC85v63RBKBWzFzFGNWxnIu0RoDQ1w4ClBKTc3athmo9JkNr+P32PF1KGX2av6b9L1S2T/L2hbLpZ4ujmZSeD0m+v6UNohKlV4qTBnvbvqCPy0D79YoszcYz0KyNCFkR9MgazpM3OYDkAw="
+      issuer: "OU=Class 3 Public Primary Certification Authority,O=VeriSign, Inc.,C=US"
+      serialNumber: "75337D9AB0E1233BAE2D7DE4469162D4"
+      version: "X.509V3"
+      signatureAlgorithm: "SHA1/RSA"
+      status: "expired"
+      trusted: true
+      alias: "verisign_class3_secure_server.cer"
+      id: "88c7dc4a6d5c725af8d5589100abf01a94ba69e6"
+      notBefore: "2005-01-19T00:00:00Z"
+      notAfter: "2015-01-18T23:59:59Z"
+      subject: "CN=VeriSign Class 3 Secure Server CA,OU=Terms of use at https://www.verisign.com/rpa (c)05,OU=VeriSign Trust Network,O=VeriSign, Inc.,C=US"
+      publicKeyAlgorithm: "RSA"
+      keyUsage: 
+        - "keyCertSign"
+        - "cRLSign"
+      extendedKeyUsage: []
+      subjectKeyIdentifier: "6FECAFA0DD8AA4EFF52A10672D3F5582BCD7EF25"
+      hasPrivateKey: false
+    - 
+      _links: 
+        self: 
+          href: "/api/certs/8b315427c24f132f75b52ea4ce8fb642cd25cb6d"
+      meta: 
+        resourceType: "cert"
+      certificate: "MIIF7DCCBNSgAwIBAgIQbsx6pacDIAm4zrz06VLUkTANBgkqhkiG9w0BAQUFADCByjELMAkGA1UEBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMR8wHQYDVQQLExZWZXJpU2lnbiBUcnVzdCBOZXR3b3JrMTowOAYDVQQLEzEoYykgMjAwNiBWZXJpU2lnbiwgSW5jLiAtIEZvciBhdXRob3JpemVkIHVzZSBvbmx5MUUwQwYDVQQDEzxWZXJpU2lnbiBDbGFzcyAzIFB1YmxpYyBQcmltYXJ5IENlcnRpZmljYXRpb24gQXV0aG9yaXR5IC0gRzUwHhcNMTAwMjA4MDAwMDAwWhcNMjAwMjA3MjM1OTU5WjCBtTELMAkGA1UEBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMR8wHQYDVQQLExZWZXJpU2lnbiBUcnVzdCBOZXR3b3JrMTswOQYDVQQLEzJUZXJtcyBvZiB1c2UgYXQgaHR0cHM6Ly93d3cudmVyaXNpZ24uY29tL3JwYSAoYykxMDEvMC0GA1UEAxMmVmVyaVNpZ24gQ2xhc3MgMyBTZWN1cmUgU2VydmVyIENBIC0gRzMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCxh4QfwgxF9byrJZenraI+nLr2wTm4i8rCrFbG5btljkRPTc5v7QlK1K9OEJxoiy6Ve4mbE8riNDTB81vzSXtig0iBdNGIeGwCU/m8f0MmV1gzgzszChew0E6RJK2GfWQS3HRKNKEdCuqWHQsV/KNLO85jiND4LQyUhhDKtpo9yus3nABINYYpUHjoRWPNGUFP9ZXse5jUxHGzUL4os4+guVOc9cosI6n9FAboGLSa6Dxugf3kzTU2s1HTaewSulZub5tXxYsU5w7HnO1KVGrJTcW/EbGuHGeBy0RVM5l/JJs/U0V/hhrzPPptf4H1uErT9YU3HLWm0AnkGHs4TvoPAgMBAAGjggHfMIIB2zA0BggrBgEFBQcBAQQoMCYwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLnZlcmlzaWduLmNvbTASBgNVHRMBAf8ECDAGAQH/AgEAMHAGA1UdIARpMGcwZQYLYIZIAYb4RQEHFwMwVjAoBggrBgEFBQcCARYcaHR0cHM6Ly93d3cudmVyaXNpZ24uY29tL2NwczAqBggrBgEFBQcCAjAeGhxodHRwczovL3d3dy52ZXJpc2lnbi5jb20vcnBhMDQGA1UdHwQtMCswKaAnoCWGI2h0dHA6Ly9jcmwudmVyaXNpZ24uY29tL3BjYTMtZzUuY3JsMA4GA1UdDwEB/wQEAwIBBjBtBggrBgEFBQcBDARhMF+hXaBbMFkwVzBVFglpbWFnZS9naWYwITAfMAcGBSsOAwIaBBSP5dMahqyNjmvDz4Bq1EgYLHsZLjAlFiNodHRwOi8vbG9nby52ZXJpc2lnbi5jb20vdnNsb2dvLmdpZjAoBgNVHREEITAfpB0wGzEZMBcGA1UEAxMQVmVyaVNpZ25NUEtJLTItNjAdBgNVHQ4EFgQUDURcFlNEwYJ+HSCrJfQBY9i+eaUwHwYDVR0jBBgwFoAUf9Nlp8Ld7LvwMAnzQzn6Aq8zMTMwDQYJKoZIhvcNAQEFBQADggEBAAyDJO/dwwzZWJz+NrbrioBL0aP3nfPMU++CnqOh5pfBWJ11bOAdG0z60cEtBcDqbrIicFXZIDNAMwfCZYP6j0M3m+oOmmxw7vacgDvZN/R6bezQGH1JSsqZxxkoor7YdyT3hSaGbYcFQEFn0Sc67dxIHSLNCwuLvPSxe/20majpdirhGi2HbnTTiN0eIsbfFrYrghQKlFzyUOyvzv9iNw2tZdMGQVPtAhTItVgooazgW+yzf5VK+wPIrSbb5mZ4EkrZn0L74ZjmQoObj49nJOhhGbXdzbULJgWOw27EyHW4Rs/iGAZeqa6ogZpHFt4MKGwlJ7net4RYxh84HqTEy2Y="
+      issuer: "CN=VeriSign Class 3 Public Primary Certification Authority - G5,OU=(c) 2006 VeriSign, Inc. - For authorized use only,OU=VeriSign Trust Network,O=VeriSign, Inc.,C=US"
+      serialNumber: "6ECC7AA5A7032009B8CEBCF4E952D491"
+      version: "X.509V3"
+      signatureAlgorithm: "SHA1/RSA"
+      status: "valid"
+      trusted: true
+      alias: "verisign_class3_secure_server_ca_g3.cer"
+      id: "8b315427c24f132f75b52ea4ce8fb642cd25cb6d"
+      notBefore: "2010-02-08T00:00:00Z"
+      notAfter: "2020-02-07T23:59:59Z"
+      subject: "CN=VeriSign Class 3 Secure Server CA - G3,OU=Terms of use at https://www.verisign.com/rpa (c)10,OU=VeriSign Trust Network,O=VeriSign, Inc.,C=US"
+      publicKeyAlgorithm: "RSA"
+      keyUsage: 
+        - "keyCertSign"
+        - "cRLSign"
+      extendedKeyUsage: []
+      subjectKeyIdentifier: "0D445C165344C1827E1D20AB25F40163D8BE79A5"
+      hasPrivateKey: false
+    - 
+      _links: 
+        self: 
+          href: "/api/certs/981eaca21374cafd0780268c81990f9887ae7170"
+      meta: 
+        resourceType: "cert"
+      issuer: "OU=VeriSign Trust Network,OU=(c) 1998 VeriSign, Inc. - For authorized use only,OU=Class 3 Public Primary Certification Authority - G2,O=VeriSign, Inc.,C=US"
+      serialNumber: "7DD9FE07CFA81EB7107967FBA78934C6"
+      version: "X.509V1"
+      signatureAlgorithm: "SHA1/RSA"
+      status: "valid"
+      trusted: true
+      alias: "c3pca22.cer"
+      id: "981eaca21374cafd0780268c81990f9887ae7170"
+      notBefore: "1998-05-18T00:00:00Z"
+      notAfter: "2028-08-01T23:59:59Z"
+      subject: "OU=VeriSign Trust Network,OU=(c) 1998 VeriSign, Inc. - For authorized use only,OU=Class 3 Public Primary Certification Authority - G2,O=VeriSign, Inc.,C=US"
+      publicKeyAlgorithm: "RSA"
+      keyUsage: []
+      extendedKeyUsage: []
+      hasPrivateKey: false
+      certificate: "MIIDAjCCAmsCEH3Z/gfPqB63EHln+6eJNMYwDQYJKoZIhvcNAQEFBQAwgcExCzAJBgNVBAYTAlVTMRcwFQYDVQQKEw5WZXJpU2lnbiwgSW5jLjE8MDoGA1UECxMzQ2xhc3MgMyBQdWJsaWMgUHJpbWFyeSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eSAtIEcyMTowOAYDVQQLEzEoYykgMTk5OCBWZXJpU2lnbiwgSW5jLiAtIEZvciBhdXRob3JpemVkIHVzZSBvbmx5MR8wHQYDVQQLExZWZXJpU2lnbiBUcnVzdCBOZXR3b3JrMB4XDTk4MDUxODAwMDAwMFoXDTI4MDgwMTIzNTk1OVowgcExCzAJBgNVBAYTAlVTMRcwFQYDVQQKEw5WZXJpU2lnbiwgSW5jLjE8MDoGA1UECxMzQ2xhc3MgMyBQdWJsaWMgUHJpbWFyeSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eSAtIEcyMTowOAYDVQQLEzEoYykgMTk5OCBWZXJpU2lnbiwgSW5jLiAtIEZvciBhdXRob3JpemVkIHVzZSBvbmx5MR8wHQYDVQQLExZWZXJpU2lnbiBUcnVzdCBOZXR3b3JrMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMXtERXVxp0KvTuWpMmR9ZmDCOFoUgRm1HP9SFIIThbbP4pO0M8RcPO/mn+SXXwc+EY/J8Y8+iR/LGWzOOZEAEaMGAuWQcRXfH2G71lSk8UOg013gfqLptQ5GVj0VXXn7F+8qkBOvqlzdUMG+7AUcyM83cV5tkaWH4mx0ciU9cZwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAFFNzb5cy5gZnBWyATl4Lk0PZ3BwmcYQWpSkU01UbSuvDV1Ai2TT1+7eVmGSX6bEHRBhNtMsJzzoKQm5EWR0zLVznxxIqbxhAe7iF6YM40AIOw7n60RzKprxaZLvcRTDOaxxp5EJb+RxBrO6WVcmeQD2+A2iMzAo1KpYoJ2daZH9"
+    - 
+      _links: 
+        self: 
+          href: "/api/certs/a5633a9b042c5521036b08f29fab9bbaf0c208a2"
+      meta: 
+        resourceType: "cert"
+      issuer: "OU=VeriSign Trust Network,OU=(c) 1998 VeriSign, Inc. - For authorized use only,OU=Class 1 Public Primary Certification Authority - G2,O=VeriSign, Inc.,C=US"
+      serialNumber: "39CA5489FE502232FE32D9DBFB1B8419"
+      version: "X.509V1"
+      signatureAlgorithm: "SHA1/RSA"
+      status: "valid"
+      trusted: true
+      alias: "c1pcag2.cer"
+      id: "a5633a9b042c5521036b08f29fab9bbaf0c208a2"
+      notBefore: "1998-05-18T00:00:00Z"
+      notAfter: "2018-05-18T23:59:59Z"
+      subject: "OU=VeriSign Trust Network,OU=(c) 1998 VeriSign, Inc. - For authorized use only,OU=Class 1 Public Primary Certification Authority - G2,O=VeriSign, Inc.,C=US"
+      publicKeyAlgorithm: "RSA"
+      keyUsage: []
+      extendedKeyUsage: []
+      hasPrivateKey: false
+      certificate: "MIIDAjCCAmsCEDnKVIn+UCIy/jLZ2/sbhBkwDQYJKoZIhvcNAQEFBQAwgcExCzAJBgNVBAYTAlVTMRcwFQYDVQQKEw5WZXJpU2lnbiwgSW5jLjE8MDoGA1UECxMzQ2xhc3MgMSBQdWJsaWMgUHJpbWFyeSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eSAtIEcyMTowOAYDVQQLEzEoYykgMTk5OCBWZXJpU2lnbiwgSW5jLiAtIEZvciBhdXRob3JpemVkIHVzZSBvbmx5MR8wHQYDVQQLExZWZXJpU2lnbiBUcnVzdCBOZXR3b3JrMB4XDTk4MDUxODAwMDAwMFoXDTE4MDUxODIzNTk1OVowgcExCzAJBgNVBAYTAlVTMRcwFQYDVQQKEw5WZXJpU2lnbiwgSW5jLjE8MDoGA1UECxMzQ2xhc3MgMSBQdWJsaWMgUHJpbWFyeSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eSAtIEcyMTowOAYDVQQLEzEoYykgMTk5OCBWZXJpU2lnbiwgSW5jLiAtIEZvciBhdXRob3JpemVkIHVzZSBvbmx5MR8wHQYDVQQLExZWZXJpU2lnbiBUcnVzdCBOZXR3b3JrMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCq0Lq+Fi24g9TK0g+8djHKlNgdk4xWArzZbxpvUjZudVYKVdPfQ4chEWWKfo+9Id5rMj8bhDSVBZ1BNeuS65bdqlk/AVNtmU/t5eIqWpDBucSmFc/IReumXY6cPvBkJHalzasab7bYe1FhbqZ/h8jit+U03EGI6glAvnOSPWvndQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAIv3GhDOdlwHq4OZ3BeAbzQ5XZg+a3Is4ceie0ApuXiIukzFo2penm574/ICQQxmvq37rqIUzpLzojSLtLK2JPLl1eDI5WJthHvLvrsDi3xXyvA3qZCviu4Dvh0onNkmdqDNxJ1O8K4HFtW+r1cIatCgQkJCHvQgzKV4gpUmOIpH"
+    - 
+      _links: 
+        self: 
+          href: "/api/certs/af036e107f73377d44d30086f57ce9b4cb1c08c8"
+      meta: 
+        resourceType: "cert"
+      certificate: "MIICZzCCAdCgAwIBAgIBBDANBgkqhkiG9w0BAQUFADBhMQswCQYDVQQGEwJVUzEYMBYGA1UEChMPVS5TLiBHb3Zlcm5tZW50MQwwCgYDVQQLEwNEb0QxDDAKBgNVBAsTA1BLSTEcMBoGA1UEAxMTRG9EIENMQVNTIDMgUm9vdCBDQTAeFw0wMDA1MTkxMzEzMDBaFw0yMDA1MTQxMzEzMDBaMGExCzAJBgNVBAYTAlVTMRgwFgYDVQQKEw9VLlMuIEdvdmVybm1lbnQxDDAKBgNVBAsTA0RvRDEMMAoGA1UECxMDUEtJMRwwGgYDVQQDExNEb0QgQ0xBU1MgMyBSb290IENBMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC1MP5kvurMbe2BLPd/6Rm6DmlqKOGpqcuVWB/x5pppU+CIP5HFUbljl6jmIYwTXjY8qFf6+HAsTGrLvzCnTBbkMlz4ErBR+BZXjS+0TfouqJToKmHUVw1Hzm4sL36YZ8wACKu2lhY1woWR5VugCsdmUmLzYXWVF668KlYppeArUwIDAQABoy8wLTAdBgNVHQ4EFgQUbJyl8FyPbUGNxBc7kFfCD6PNbf4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCvcUT5lyPMaGmMQwdBuoggsyIAQciYoFUczT9usZNcrfoYmrscc2/9JEKPh59Rz76Gn+nXikhPCNlplKw/5g8tlw8ok3ZPYt//oM1h+KaGDDE0INx/L6j7Ob6V7jhZAmLB3mwVT+DfnbvkeXMk/WNklfdKqJkfSGWVx3u/eDLneg=="
+      issuer: "CN=DoD CLASS 3 Root CA,OU=PKI,OU=DoD,O=U.S. Government,C=US"
+      serialNumber: "4"
+      version: "X.509V3"
+      signatureAlgorithm: "SHA1/RSA"
+      status: "valid"
+      trusted: true
+      alias: "dod_class_3_root_ca.cer"
+      id: "af036e107f73377d44d30086f57ce9b4cb1c08c8"
+      notBefore: "2000-05-19T13:13:00Z"
+      notAfter: "2020-05-14T13:13:00Z"
+      subject: "CN=DoD CLASS 3 Root CA,OU=PKI,OU=DoD,O=U.S. Government,C=US"
+      publicKeyAlgorithm: "RSA"
+      keyUsage: []
+      extendedKeyUsage: []
+      subjectKeyIdentifier: "6C9CA5F05C8F6D418DC4173B9057C20FA3CD6DFE"
+      hasPrivateKey: false
+    - 
+      _links: 
+        self: 
+          href: "/api/certs/b59ea161760240a98cb07455b42b3cde1dcdf4b4"
+      meta: 
+        resourceType: "cert"
+      certificate: "MIIDuzCCAySgAwIBAgIHA8QUbt0O2DANBgkqhkiG9w0BAQUFADCBgDELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAk1JMQ8wDQYDVQQHEwZXYWxrZXIxHjAcBgNVBAoTFU1laWplciBTdG9yZXMgTGltaXRlZDEOMAwGA1UECxMFTWVyY2gxCzAJBgNVBAsTAklUMRYwFAYDVQQDEw1NZWlqZXIgaXBwcm9kMB4XDTAzMDgwNDE3MDkyM1oXDTMwMDgwNDE3MDkyM1owgYAxCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJNSTEPMA0GA1UEBxMGV2Fsa2VyMR4wHAYDVQQKExVNZWlqZXIgU3RvcmVzIExpbWl0ZWQxDjAMBgNVBAsTBU1lcmNoMQswCQYDVQQLEwJJVDEWMBQGA1UEAxMNTWVpamVyIGlwcHJvZDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAm9GxM76AfpkfrJHilVxVnI/qeFUsDrOUq/Gth0Zw9tyhO+WDl2KetvyFVBmc11C5FFvlSeMNxTRNF2szhBferWzdqV2N3kop8C5T7hDN9pxW/Vn8tovoJ9e32QZn73+b7sZ6yZvq2QP0GtdQlo5GMWUHmPwZTOHsEBnI3/MvTK8CAwEAAaOCATswggE3MB8GA1UdIwQYMBaAFCneDFnrtVt2jcCXOzLS356E6EbGMBEGCWCGSAGG+EIBAQQEAwIAIDCBmwYJYIZIAYb4QgENBIGNFoGKTm8gYXR0ZW1wdCBoYXMgYmVlbiBtYWRlIHRvIGF1dGhlbnRpY2F0ZSB0aGUgZW50aXR5IHJlcHJlc2VudGVkIGJ5IHRoaXMgY2VydGlmaWNhdGUuIE5vIGxpYWJpbGl0eSBpcyBhY2NlcHRlZCBmb3IgdXNlIG9mIHRoaXMgY2VydGlmaWNhdGUuMCIGA1UdEQQbMBmBF2lwcHJvZEBtZWlqZXJ2ZW5kb3IuY29tMAsGA1UdDwQEAwIE8DAdBgNVHQ4EFgQUKd4MWeu1W3aNwJc7MtLfnoToRsYwEwYDVR0lBAwwCgYIKwYBBQUHAwQwDQYJKoZIhvcNAQEFBQADgYEAL0zHf+oysUuxWQ7uGO/aBVv7Qbx7m4R2aEI+5sqkAqvqjcTG/dNe0tw7b38PHxCjUKSw8lyRqpPLNbkn0zSRIJO/Ns6aZlq1f+K050369UN0LGxwqAb73nWv+mhbpI9wZSEEnfcpImgbtQIBUYxIjT7mJH9sk3b95gez0XB3oxM="
+      issuer: "CN=Meijer ipprod,OU=IT,OU=Merch,O=Meijer Stores Limited,L=Walker,ST=MI,C=US"
+      serialNumber: "3C4146EDD0ED8"
+      version: "X.509V3"
+      signatureAlgorithm: "SHA1/RSA"
+      status: "valid"
+      trusted: true
+      alias: "meijer bizlink.cer"
+      id: "b59ea161760240a98cb07455b42b3cde1dcdf4b4"
+      notBefore: "2003-08-04T17:09:23Z"
+      notAfter: "2030-08-04T17:09:23Z"
+      subject: "CN=Meijer ipprod,OU=IT,OU=Merch,O=Meijer Stores Limited,L=Walker,ST=MI,C=US"
+      publicKeyAlgorithm: "RSA"
+      keyUsage: 
+        - "digitalSignature"
+        - "nonRepudiation"
+        - "keyEncipherment"
+        - "dataEncipherment"
+      extendedKeyUsage: 
+        - "emailProtection"
+      subjectKeyIdentifier: "29DE0C59EBB55B768DC0973B32D2DF9E84E846C6"
+      hasPrivateKey: false
+    - 
+      _links: 
+        self: 
+          href: "/api/certs/def585e088a961aaeadcc66b9e0f81f43dc8a063"
+      meta: 
+        resourceType: "cert"
+      issuer: "CN=TEST.CLEO.COM,EMAIL=support@cleo.com,OU=Tech Support,O=Cleo Communications,L=Loves Park,ST=Illinois,C=US"
+      serialNumber: "2A2E0EA1ABC3E26517C"
+      version: "X.509V3"
+      signatureAlgorithm: "SHA1/RSA"
+      status: "valid"
+      trusted: true
+      alias: "cleo-test.cer"
+      id: "def585e088a961aaeadcc66b9e0f81f43dc8a063"
+      notBefore: "2010-09-21T15:26:52Z"
+      notAfter: "2018-09-21T15:26:52Z"
+      subject: "CN=TEST.CLEO.COM,EMAIL=support@cleo.com,OU=Tech Support,O=Cleo Communications,L=Loves Park,ST=Illinois,C=US"
+      publicKeyAlgorithm: "RSA"
+      keyUsage: 
+        - "digitalSignature"
+        - "keyEncipherment"
+      extendedKeyUsage: []
+      hasPrivateKey: false
+      certificate: "MIIC2TCCAkKgAwIBAgIKAqLg6hq8PiZRfDANBgkqhkiG9w0BAQUFADCBozELMAkGA1UEBhMCVVMxETAPBgNVBAgTCElsbGlub2lzMRMwEQYDVQQHEwpMb3ZlcyBQYXJrMRwwGgYDVQQKExNDbGVvIENvbW11bmljYXRpb25zMRUwEwYDVQQLEwxUZWNoIFN1cHBvcnQxHzAdBgkqhkiG9w0BCQEWEHN1cHBvcnRAY2xlby5jb20xFjAUBgNVBAMTDVRFU1QuQ0xFTy5DT00wHhcNMTAwOTIxMTUyNjUyWhcNMTgwOTIxMTUyNjUyWjCBozELMAkGA1UEBhMCVVMxETAPBgNVBAgTCElsbGlub2lzMRMwEQYDVQQHEwpMb3ZlcyBQYXJrMRwwGgYDVQQKExNDbGVvIENvbW11bmljYXRpb25zMRUwEwYDVQQLEwxUZWNoIFN1cHBvcnQxHzAdBgkqhkiG9w0BCQEWEHN1cHBvcnRAY2xlby5jb20xFjAUBgNVBAMTDVRFU1QuQ0xFTy5DT00wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAM9OKv4DHq+kOWJCZ/odpqMgNE11gxdCPwytMO2e8ZMOrOn8mPaTDxPRhGYjjM5NBfivEov63DylCrxoFer9/8kb/fGNRhM5fzdGvwW1MUL/PBTHEZps3IcEYfRl2dJp+Zla8UghlQuiRAhV89gPaay7k/YT7jLhWQza4Rx1nB9BAgMBAAGjEjAQMA4GA1UdDwEB/wQEAwIFoDANBgkqhkiG9w0BAQUFAAOBgQA54CG//JkvMj+xUiQiGxy4KuTFjLj//lgUJ1kmkyHeRqHl3NeTqndnRWhI/UclOj6T1Lhp9400FaGBXrE1NhCDLZpde/C8eMjnhTNKIRPabH9fUJ9PtY23tUziNQpdbC6Bpu2jERXGyiBjtnHqTHn05xbmc96cLfVkHUPnYHk0mA=="
+    - 
+      _links: 
+        self: 
+          href: "/api/certs/e369fee5bdc70ef1be0fcf44e908e462b5567cd0"
+      meta: 
+        resourceType: "cert"
+      issuer: "CN=VeriSign Class 2 Public Primary Certification Authority - G3,OU=(c) 1999 VeriSign, Inc. - For authorized use only,OU=VeriSign Trust Network,O=VeriSign, Inc.,C=US"
+      serialNumber: "6170CB498C5F984529E7B0A6D9505B7A"
+      version: "X.509V1"
+      signatureAlgorithm: "SHA1/RSA"
+      status: "valid"
+      trusted: true
+      alias: "verisign_class2_public_primary_certification_authority_g3.cer"
+      id: "e369fee5bdc70ef1be0fcf44e908e462b5567cd0"
+      notBefore: "1999-10-01T00:00:00Z"
+      notAfter: "2036-07-16T23:59:59Z"
+      subject: "CN=VeriSign Class 2 Public Primary Certification Authority - G3,OU=(c) 1999 VeriSign, Inc. - For authorized use only,OU=VeriSign Trust Network,O=VeriSign, Inc.,C=US"
+      publicKeyAlgorithm: "RSA"
+      keyUsage: []
+      extendedKeyUsage: []
+      hasPrivateKey: false
+      certificate: "MIIEGTCCAwECEGFwy0mMX5hFKeewptlQW3owDQYJKoZIhvcNAQEFBQAwgcoxCzAJBgNVBAYTAlVTMRcwFQYDVQQKEw5WZXJpU2lnbiwgSW5jLjEfMB0GA1UECxMWVmVyaVNpZ24gVHJ1c3QgTmV0d29yazE6MDgGA1UECxMxKGMpIDE5OTkgVmVyaVNpZ24sIEluYy4gLSBGb3IgYXV0aG9yaXplZCB1c2Ugb25seTFFMEMGA1UEAxM8VmVyaVNpZ24gQ2xhc3MgMiBQdWJsaWMgUHJpbWFyeSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eSAtIEczMB4XDTk5MTAwMTAwMDAwMFoXDTM2MDcxNjIzNTk1OVowgcoxCzAJBgNVBAYTAlVTMRcwFQYDVQQKEw5WZXJpU2lnbiwgSW5jLjEfMB0GA1UECxMWVmVyaVNpZ24gVHJ1c3QgTmV0d29yazE6MDgGA1UECxMxKGMpIDE5OTkgVmVyaVNpZ24sIEluYy4gLSBGb3IgYXV0aG9yaXplZCB1c2Ugb25seTFFMEMGA1UEAxM8VmVyaVNpZ24gQ2xhc3MgMiBQdWJsaWMgUHJpbWFyeSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eSAtIEczMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArwoNwtUs22e5LeWUJ92lvuCwTY+zYVY81nzD9M0+hsuiiOLh2KRpxbXiv8GmR1BeRjmL1Za6tW8UvxDOJxOeBUebMXoT2B/Z0wI3i60sR/COgQanDTAM6/c8DyAd3HJG7qUCyFvDyVZpTMUYwZF7C9UTAJu878NIPkZgIIUq1ZC2zYugzDLdt/1AVbJQHFauzI13TccgTacxdu9okoqQHgiBVrKtaaNS0MscxCM9H5n+TOgWY47GCI72MfbS+uV23bUckqNJzc0BzWjNqWm6o+sdDZykIKbBoMXRRkwXbdKsZj+WjOCE1Db/IlnF+RFgqF8EffIa9iVCYQ/ESrg+iQIDAQABMA0GCSqGSIb3DQEBBQUAA4IBAQA0JhU8wI1NQ0kdvekhktdmnLfexbjQ5F1fdiLAJvmEOjr5jLX77GDx6M4EsMjdpwOPMPOY36TmpDHf0xwLRtxyID+u7gU8pDM/CzmscHhzS5kr3zDCVLCoO1Wh/hYozUK9dG6A2ydEp85EXdQbkJgNHkKUsQAsBNB0owIFImNjzYO1+8FtYmtpdf1dcEG59b98377BMnMiIYtYgXsVkXq642RIsH/7NiXaldDxJBQX3RiAa0YjOVT1jmIJBB2UkKab5iXiQkWquJCtvgiPqQtCGJTPcjnhsUPgKM+351psE2tJs//jGHyJizNdrDPXp/naOlXJWBD5qu9ats9LS98q"
+  count: 20
+  startIndex: 0
+  totalResults: 24

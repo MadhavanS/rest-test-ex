@@ -1,0 +1,21 @@
+---
+provider1:
+  description: list the certificates
+  parameters: ["count", "name"]
+  data:
+  - count: 1
+    name: foo
+  - count: 2
+    name: bar
+  - count: 50
+    name: bat
+test1:
+  description: test case data
+  parameters: ["count", "name"]
+  data:
+  - count: 1
+    name: foo
+  - count: 2
+    name: bar
+  - count: 50
+    name: bat

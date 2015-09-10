@@ -1,0 +1,104 @@
+---
+test1:
+  expected:
+    x: 1
+    y: true
+    z: ${success}
+    sub:
+    - one
+    - two
+    - three
+  actual:
+    x: 1
+    y: true
+    z: "hi"
+    sub:
+    - one
+    - two
+    - three
+  result: true
+test2:
+  expected:
+    x: 1
+    y: 2
+    z: 3
+  actual:
+    y: 2
+    z: 3
+  result: false
+test3:
+  expected:
+    x: 1
+    y: 2
+    z: ${expect(Array.isArray(actual))}
+  actual:
+    x: 1
+    y: 2
+    z: 3
+  result: false
+test4:
+  expected:
+    x: 1
+    y: 2
+    z: ${var capture=actual; expect(Array.isArray(actual))}
+  actual:
+    x: 1
+    y: 2
+    z: [1, 2, 3]
+    extra1: foo
+    extra2: bar
+  result: true
+test5:
+  expected:
+    x: 1
+    y: 2
+    z: ${var capture=actual; success}
+    "*": ${failure}
+  actual:
+    x: 1
+    y: 2
+    z: "ready set go"
+    extra1: foo
+    extra2: bar
+  result: false
+test6:
+  expected: ${capture}
+  actual: "ready set go"
+  result: true
+test7:
+  expected:
+    foo: ${capture}
+  actual:
+    foo: ${capture}
+  result: true
+test8:
+  expected: ${capture}
+  actual: ${capture}
+  result: true
+test9:
+  expected:
+    "**": ${failure}
+    when: in
+    the: course
+    of:
+      human: events
+      it: becomes
+      necessary: for
+    one: people
+    to:
+     dissolve: the
+     political: bands
+  actual:
+    when: in
+    the: course
+    of:
+      human: events
+      it: becomes
+      necessary: for
+    one: people
+    to:
+     dissolve: the
+     political: bands
+     which: have
+     connected: them
+  result: false

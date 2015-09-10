@@ -1,0 +1,133 @@
+---
+testsequence1:
+  description: list the certificates
+  #parameters:
+  #- count
+  steps:
+  - description: get the first count certificates
+    before: |
+      var count=1
+    request:
+      method: GET
+      path:   ${"/certs?count="+count}
+    response:
+      status: 200
+      schema: collection.schema
+      body:
+        totalResults: 24
+        startIndex: 0
+        count: ${count}
+        resources: ${expect(Array.isArray(actual) && actual.length==count)}
+    after: |
+      println("step 1 after report: "+response.body.totalResults)
+  - description: report ex post facto
+    after: |
+      println("step 2 after report: "+response.body.totalResults)
+testsequence2:
+  description: list previous request
+  steps:
+  - after: |
+      println("hello, world!");
+      debug("debug message")
+create_as2_connection:
+  description: create an AS2 connection using the old GetPojo settings
+  steps:
+  - description: count existing connections
+    request:
+      method: GET
+      path:   "/connections?count=1"
+    response:
+      status: 200
+      body:
+        totalResults: ${var connection_count=actual; success}
+  - description: create the connection
+    request:
+      method: POST
+      path:   "/connections"
+      body:
+        type: "as2"
+        connect:
+          url: "http://localhost:5080/as2"
+        outgoing:
+          subject: "AS2Message"
+          contentType: "X12"
+          encrypt: true
+          receipt:
+            type: "sync"
+            sign: true
+    response:
+      status: 201
+      # schema: cert.schema # not working
+      body:
+        id: ${as2id=actual; println("captured AS2 id "+as2id); success}
+        alias: ${success}
+        type: "as2"
+        active: true
+        editable: true
+        runnable: true
+        ready: false
+        notReadyReason: "Trading Partner's Encryption Certificate is required when encrypting a message."
+        enabled: "true"
+        test: false
+        cemCapable: "false"
+        connect: 
+          url: "http://localhost:5080/as2"
+        accept: 
+          requireSecurePort: false
+        outgoing: 
+          subject: "AS2Message"
+          contentType: "X12"
+          encrypt: true
+          encryptionAlgorithm: "3des"
+          sign: false
+          compress: false
+          receipt: 
+            type: "sync"
+            micAlgorithm: "sha1"
+            sign: true
+            forwardToEmail: false
+          storage: 
+            outbox: "file:outbox/"
+        incoming: 
+          requireEncryption: false
+          requireSignature: false
+          requireReceiptSignature: false
+          storage: 
+            inbox: "file:inbox/"
+            filename: 
+              useDefaultFilename: false
+              overWrite: false
+        meta: 
+          resourceType: "connection"
+          created: ${expect(actual.match(/\d\d\d\d-\d\d-\d\dT\d\d:\d\d:\d\dZ/))}
+          lastModified: ${expect(actual.match(/\d\d\d\d-\d\d-\d\dT\d\d:\d\d:\d\dZ/))}
+          version: "1"
+        _links: 
+          self: 
+            href: ${"/api/connections/"+as2id}
+          actions: ${expect(Array.isArray(actual))}
+          clone: 
+            href: ${"/api/connections/"+as2id+"/clone"}
+    after: |
+      println("as2 connection created: "+as2id)
+  - description: count connections again
+    request:
+      method: GET
+      path:   "/connections?count=1"
+    response:
+      status: 200
+      body:
+        totalResults: ${connection_count+2} # TODO: why is this +2?
+helloworld:
+  description: say hello world
+  steps:
+  - description: say hello world
+    before: |
+      println("the hello world test says hello world")
+test1:
+  description: eats test case data
+  parameters: ["count", "name"]
+  steps:
+  - description: say hello world
+    before: |
+      println("the test data test case hello with count="+count+" and name="+name)
