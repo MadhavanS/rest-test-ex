@@ -5,7 +5,18 @@ threadCount: 1
  
 tests:
   - name: TestOne
-    parameters: { url: "http://192.168.50.105:5080/api" }
+    parameters:
+      url:      http://192.168.50.105:5080/api
+      sequence: test-rest
+      test:     test1
+      provider: test-provider
     # excludedGroups: [ broken ]
     classes:
-    - com.cleo.labs.resttest.NewTest
+    - com.cleo.labs.resttest.ProviderDrivenTest
+  - name: TestTwo
+    parameters:
+      url:      http://192.168.50.105:5080/api
+      sequence: test-rest
+      test:     create_as2_connection
+    classes:
+    - com.cleo.labs.resttest.ProviderDrivenTest

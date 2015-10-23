@@ -2,6 +2,7 @@ package com.cleo.labs.resttest;
 
 import static com.jayway.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
 
+import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.ArrayDeque;
@@ -28,6 +29,7 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.JsonNodeFactory;
 import com.fasterxml.jackson.databind.node.MissingNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
+import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import com.github.fge.jsonschema.core.load.configuration.LoadingConfiguration;
 import com.github.fge.jsonschema.core.load.uri.URITranslatorConfiguration;
 import com.github.fge.jsonschema.main.JsonSchemaFactory;
@@ -463,6 +465,27 @@ public class JsonComparator {
     }
 
     /**
+     * Converts a JSON string (e.g. from {@code JSON.stringify}) to YAML
+     * format.  Returns {@code "null"} for {@code null} or the exception
+     * text in case of error.
+     * @param s a JSON string
+     * @return a YAML string
+     */
+    public static String yaml(String s) {
+        String content;
+        if (s==null) {
+            content = "null";
+        } else {
+            try {
+                content = new ObjectMapper(new YAMLFactory()).writeValueAsString(new ObjectMapper().readTree(s));
+            } catch (IOException e) {
+                content = e.toString();
+            }
+        }
+        return content;
+    }
+
+    /**
      * Creates a new {@code JsonComparator} and initializes a {@link ScriptEngine}
      * instance for use by subsequent invocations of {@link #compareNodes(JsonNode, JsonNode)
      * compareNodes} and {@link #evalNode(JsonNode) evalNode}.  Since the script
@@ -479,6 +502,7 @@ public class JsonComparator {
                         "var failure=JsonComparator$Result.FAILURE;"+
                         "function expect(b) { return b ? success : failure; }"+
                         "function println(s) { java.lang.System.out.println(s); }"+
+                        "function yaml(o) { return com.cleo.labs.resttest.JsonComparator.yaml(JSON.stringify(o)); }"+
                         "function debug(s) { com.cleo.labs.resttest.JsonComparator.logger.debug(s); }");
         } catch (ScriptException e) {
             e.printStackTrace();

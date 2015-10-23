@@ -14,7 +14,7 @@ testsequence1:
       status: 200
       schema: collection.schema
       body:
-        totalResults: 24
+        totalResults: ${expect(actual>=20)}
         startIndex: 0
         count: ${count}
         resources: ${expect(Array.isArray(actual) && actual.length==count)}
@@ -59,7 +59,7 @@ create_as2_connection:
       status: 201
       # schema: cert.schema # not working
       body:
-        id: ${as2id=actual; println("captured AS2 id "+as2id); success}
+        id: ${as2id=actual; println("captured AS2 id "+as2id); println(yaml(response.body)); success}
         alias: ${success}
         type: "as2"
         active: true

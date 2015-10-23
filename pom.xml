@@ -27,7 +27,7 @@
             </property>
           </systemProperties>
           <suiteXmlFiles>
-            <suiteXmlFile>TestXML/${suiteXML}</suiteXmlFile>
+            <suiteXmlFile>src/test/resources/suite1.yaml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
@@ -46,20 +46,18 @@
     </snapshotRepository>
   </distributionManagement>
   <repositories>
-    <repository>
-      <!-- Official Cleo's repository -->
-      <id>cleo_repo</id>
-      <name>Cleo's Repository</name>
-      <url>http://contd.cleo.com/nexus/content/groups/public/</url>
-      <releases>
-        <!-- Don't want to re-download released versions -->
-        <updatePolicy>never</updatePolicy>
-      </releases>
-      <snapshots>
-        <!-- We want to always check for new versions of unrealeased versions -->
-        <updatePolicy>always</updatePolicy>
-      </snapshots>
-    </repository>
+        <repository>
+            <!-- Official Cleo's repository -->
+            <id>cleo_repo</id>
+            <name>Cleo's Repository</name>
+            <url>http://contd.cleo.com/nexus/content/groups/public/</url>
+            <releases>
+                <updatePolicy>never</updatePolicy>
+            </releases>
+            <snapshots>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
     <repository>
       <id>central</id>
       <name>bintray</name>
@@ -69,7 +67,7 @@
 
   <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-      <cleo.version>5.2.0.1-SNAPSHOT</cleo.version>
+      <cleo.version>5.2.1.0</cleo.version>
   </properties>
 
   <profiles>

@@ -13,6 +13,7 @@ import java.util.function.BiConsumer;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import com.fasterxml.jackson.dataformat.yaml.YAMLParser;
@@ -80,7 +81,11 @@ public class Provider {
             throw new IllegalArgumentException("parameters not specified");
         }
         return data.stream().map((object) ->
-            Arrays.stream(parameters).map(object::get).toArray(Object[]::new)
+        new Object[] {
+          Arrays.asList(
+            Arrays.stream(parameters).map(object::get).toArray(JsonNode[]::new)
+          )
+        }
         ).toArray(Object[][]::new);
     }
     /*------------------------------------------------------------------------*
