@@ -57,7 +57,7 @@ create_as2_connection:
             sign: true
     response:
       status: 201
-      # schema: cert.schema # not working
+      schema: connection.schema
       body:
         id: ${as2id=actual; println("captured AS2 id "+as2id); println(yaml(response.body)); success}
         alias: ${success}
