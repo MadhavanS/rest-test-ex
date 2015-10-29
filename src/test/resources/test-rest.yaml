@@ -19,7 +19,16 @@ testsequence1:
         count: ${count}
         resources: ${expect(Array.isArray(actual) && actual.length==count)}
     after: |
-      println("step 1 after report: "+response.body.totalResults)
+      println("step 1 after report: "+response.body.totalResults);
+      var first_id = response.body.resources[0].id
+  - description: get the first cert
+    request:
+      method: GET
+      path: ${"/certs/"+first_id}
+    response:
+      status: 200
+      schema: cert.schema
+      body: ${success}
   - description: report ex post facto
     after: |
       println("step 2 after report: "+response.body.totalResults)

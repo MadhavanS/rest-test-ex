@@ -4,6 +4,13 @@ threadCount: 1
 # parameters: { n: 42 }
  
 tests:
+  - name: TestZero
+    parameters:
+      url:      http://192.168.50.105:5080/api
+      sequence: test-rest
+      test:     testsequence1
+    classes:
+    - com.cleo.labs.resttest.ProviderDrivenTest
   - name: TestOne
     parameters:
       url:      http://192.168.50.105:5080/api
