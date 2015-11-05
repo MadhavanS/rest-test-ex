@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.databind.JsonNode;
@@ -17,19 +18,22 @@ public class Request {
     private static int    port     = -1;
     private static String basePath = null;
 
+    public interface MethodInvoker {
+        com.jayway.restassured.response.Response apply(RequestSender req, String path);
+    }
     public enum Method {
-        HEAD    ((req)->req::head),
-        GET     ((req)->req::get),
-        POST    ((req)->req::post),
-        PUT     ((req)->req::put),
-        DELETE  ((req)->req::delete),
-        PATCH   ((req)->req::patch),
-        OPTIONS ((req)->req::options);
-        private Function<RequestSender,Function<String,com.jayway.restassured.response.Response>> method;
-        private Method(Function<RequestSender,Function<String,com.jayway.restassured.response.Response>> method) {
+        HEAD    ((req,path)->req.head(path)),
+        GET     ((req,path)->req.get(path)),
+        POST    ((req,path)->req.post(path)),
+        PUT     ((req,path)->req.put(path)),
+        DELETE  ((req,path)->req.delete(path)),
+        PATCH   ((req,path)->req.patch(path)),
+        OPTIONS ((req,path)->req.options(path));
+        private MethodInvoker method;
+        private Method(MethodInvoker method) {
             this.method = method;
         }
-        public Function<RequestSender,Function<String,com.jayway.restassured.response.Response>> getMethod() {
+        public MethodInvoker getMethod() {
             return method;
         }
     }
@@ -46,7 +50,7 @@ public class Request {
     /*------------------------------------------------------------------------*
      * Doing the method, convert Request to Response.                         *
      *------------------------------------------------------------------------*/
-    //
+    @JsonIgnore
     public Response getResponse() {
         RequestSpecification reqspec = RestAssured.given();
         if (baseURI!=null) {
@@ -73,7 +77,7 @@ public class Request {
             }
             reqspec = reqspec.body(body.toString());
         }
-        return new Response(method.getMethod().apply(reqspec).apply(path));
+        return new Response(method.getMethod().apply(reqspec, path));
     }
     /*------------------------------------------------------------------------*
      * JSON converter.                                                        *
