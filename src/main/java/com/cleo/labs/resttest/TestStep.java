@@ -69,7 +69,7 @@ public class TestStep {
         }
         if (result.ok && !result.skip && request!=null) {
             Request req = JsonComparator.mapper.convertValue(comparator.evalNode(request), Request.class);
-            actual = req.getResponse();
+            actual = new Response(req.invoke());
             result.ok = actual!=null;
             comparator.putJson("request", req.asJson());
             comparator.putJson("response", actual.asJson());

@@ -2,9 +2,7 @@ package com.cleo.labs.resttest;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.function.Function;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.databind.JsonNode;
@@ -19,7 +17,7 @@ public class Request {
     private static String basePath = null;
 
     public interface MethodInvoker {
-        com.jayway.restassured.response.Response apply(RequestSender req, String path);
+        com.jayway.restassured.response.Response invoke(RequestSender req, String path);
     }
     public enum Method {
         HEAD    ((req,path)->req.head(path)),
@@ -50,8 +48,7 @@ public class Request {
     /*------------------------------------------------------------------------*
      * Doing the method, convert Request to Response.                         *
      *------------------------------------------------------------------------*/
-    @JsonIgnore
-    public Response getResponse() {
+    public com.jayway.restassured.response.Response invoke() {
         RequestSpecification reqspec = RestAssured.given();
         if (baseURI!=null) {
             reqspec = reqspec.baseUri(baseURI);
@@ -77,7 +74,7 @@ public class Request {
             }
             reqspec = reqspec.body(body.toString());
         }
-        return new Response(method.getMethod().apply(reqspec, path));
+        return method.getMethod().invoke(reqspec, path);
     }
     /*------------------------------------------------------------------------*
      * JSON converter.                                                        *

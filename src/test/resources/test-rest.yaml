@@ -126,7 +126,7 @@ create_as2_connection:
     response:
       status: 200
       body:
-        totalResults: ${connection_count+2} # TODO: why is this +2?
+        totalResults: ${connection_count+1}
 helloworld:
   description: say hello world
   steps:
